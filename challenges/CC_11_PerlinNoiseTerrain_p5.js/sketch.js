@@ -13,7 +13,7 @@ var flying = 0;
 var terrain;
 
 function setup() {
-  createCanvas(1920,600, WEBGL);
+  createCanvas(100%, 600, WEBGL);
   cols = w / scl;
   rows = h/ scl;
 
